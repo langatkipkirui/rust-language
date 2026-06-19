@@ -10,4 +10,10 @@ fn main() {
 
     // Positional arguments
     println!("{0} is from {1} and {0} likes to {2}", {"Kevin"},{"Kericho"}, {"code"} );
+
+    // name arguments
+    println!("{name} likes to play {activity}", name="John", activity="Baseball");
+
+    // Placeholder Traits
+    println!("Binary {:b} Hex: {:x} Octal: {:0}", 10,10,10);
 }
