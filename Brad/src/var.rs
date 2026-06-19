@@ -15,5 +15,9 @@ pub fn run() {
 
     // CONST (add a type and use uppercase )
     const ID: i32 = 001;
-    println!("ID {}", ID)
+    println!("ID {}", ID);
+
+    // Assigning multiple vars
+    let (my_name, my_age) = ("Putin", 77);
+    println!("{} is the Soviet President and he is {} yrs old", my_name, my_age)
 }
