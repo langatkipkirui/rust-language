@@ -2,6 +2,7 @@
 // variables are immutable by default
 // Rust is block-scoped
 pub fn run() {
+    // LET
     let name = "Langat";
 
     // let age = 21;
@@ -10,5 +11,9 @@ pub fn run() {
     println!("My name is {} and I am {}", name, age);
     age = 22;
 
-    println!("My name is {} and I am {}", name, age)
+    println!("My name is {} and I am {}", name, age);
+
+    // CONST (add a type and use uppercase )
+    const ID: i32 = 001;
+    println!("ID {}", ID)
 }
