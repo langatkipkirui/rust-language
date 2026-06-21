@@ -1,5 +1,5 @@
 // mod print;
-mod var;
+// mod var;
 mod types;
 
 fn main() {
