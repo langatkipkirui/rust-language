@@ -16,5 +16,14 @@ pub fn run() {
     // push multiple characters into a string
     great.push_str("orld!");
 
+    // capacity in bytes
+    println!("Capacity: {}", great.capacity());
+
+    // check if empty
+    println!("Is empty: {}", great.is_empty());
+
+    // check if it contains: "world"
+    println!("Contsins World: {}", great.contains("World"));
+
     println!("{}", great);
 }
