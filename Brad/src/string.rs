@@ -25,5 +25,7 @@ pub fn run() {
     // check if it contains: "world"
     println!("Contsins World: {}", great.contains("World"));
 
-    println!("{}", great);
+    // Replace
+    println!("Replace: {}", hello.replace("Hello", "World"));
+    println!("{:?}", (great, hello));
 }
