@@ -27,5 +27,12 @@ pub fn run() {
 
     // Replace
     println!("Replace: {}", hello.replace("Hello", "World"));
-    println!("{:?}", (great, hello));
+
+    // loop through string by whitespace
+    let hello_world = "Hello World!";
+    for word in hello_world.split_whitespace() {
+        println!("{}", word);
+    }
+
+    // Create a string with  capacity
 }
