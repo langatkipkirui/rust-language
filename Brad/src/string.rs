@@ -35,4 +35,7 @@ pub fn run() {
     }
 
     // Create a string with  capacity
+    let mut s = String::with_capacity(10);
+    s.push('a');
+    s.push('b');
 }
