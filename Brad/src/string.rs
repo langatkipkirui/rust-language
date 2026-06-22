@@ -38,4 +38,9 @@ pub fn run() {
     let mut s = String::with_capacity(10);
     s.push('a');
     s.push('b');
+    s.push('c');
+
+    // Assertion testing
+    assert_eq!(2, s.len());
+    assert_eq!(10, s.capacity());
 }
