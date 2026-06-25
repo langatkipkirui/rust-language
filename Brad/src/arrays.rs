@@ -1,8 +1,11 @@
 use std::mem;
 // fixed list where elements are the same data types
 pub fn run() {
-    let numbers: [i32; 4] = [1, 2, 3, 4];
+    let mut numbers: [i32; 4] = [1, 2, 3, 4];
     println!("{:?}", numbers);
+
+    // Reassign a value to an array
+    numbers[2] = 20;
 
     // get a single value
     println!("single value:{}", numbers[2]);
@@ -11,5 +14,9 @@ pub fn run() {
     println!("Array length: {}", numbers.len());
 
     // Arrays are stack allocated
-    println!("Array occupies {} bytes", mem::size_of_val(&numbers))
+    println!("Array occupies {} bytes", mem::size_of_val(&numbers));
+
+    // Get slice
+    let slice: &[i32] = &numbers[0..3];
+    println!("Sliced numbers array: {:?}", slice);
 }
