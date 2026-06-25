@@ -7,6 +7,7 @@
 
 pub fn run() {
     // Arithmetic Operators
+    println!("{}", "------Arithmetic operators-------");
     let add = 5 + 3;
     let sub = 10 - 4;
     let mul = 6 * 2;
@@ -20,6 +21,7 @@ pub fn run() {
     println!("Rem: {}", rem);
 
     // Assignment Operators
+    println!("{}", "------Assignment operators-------");
     let mut x = 10;
     println!("Start: {}", x);
 
@@ -37,4 +39,20 @@ pub fn run() {
 
     x %= 4;
     println!("After %= 4: {}", x);
+
+    // Comparison operators
+    // they return true or false: ==, !=, >, <, >=, <=
+
+    let a = 5;
+    let b = 10;
+
+    println!("{}", "------Comparison operators-------");
+    println!("5 == 10: {}", a == b);
+    println!("5 < 10: {}", a < b);
+    println!("5 >= 10: {}", a >= b);
+
+    // Logical Operators
+    // used to work with boolean values:
+    // && AND true is both values are true
+    // || OR  inverts the boolean
 }
