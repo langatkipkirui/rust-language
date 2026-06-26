@@ -1,4 +1,3 @@
-//
 use std::mem;
 // fixed list where elements are the same data types
 pub fn run() {
@@ -26,4 +25,16 @@ pub fn run() {
     // Get slice
     let slice: &[i32] = &numbers[0..3];
     println!("Sliced numbers vectors: {:?}", slice);
+
+    // loop through vector values
+    for x in numbers.iter() {
+        println!("Number: {}", x);
+    }
+
+    // loop and mutate values
+    for x in numbers.iter_mut() {
+        *x *= 2;
+
+        println!("Numbers Vec: {:?}", x);
+    }
 }
