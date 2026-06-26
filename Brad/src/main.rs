@@ -5,7 +5,8 @@
 // mod types;
 // mod string;
 // mod tuples;
-mod arrays;
+// mod arrays;
+mod vectors;
 
 fn main() {
     // print::run();
@@ -15,5 +16,6 @@ fn main() {
     // types::run();
     // string::run();
     // tuples::run();
-    arrays::run();
+    // arrays::run();
+    vectors::run();
 }
