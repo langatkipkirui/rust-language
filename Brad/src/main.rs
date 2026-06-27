@@ -8,8 +8,8 @@
 // mod arrays;
 // mod vectors;
 // mod conditionals;
-// mod loops;
-mod monte;
+// mod monte;
+mod loops;
 
 fn main() {
     // print::run();
@@ -22,6 +22,6 @@ fn main() {
     // arrays::run();
     // vectors::run();
     // conditionals::run();
-    // loops::run();
-    monte::run()
+    // monte::run()
+    loops::run();
 }
