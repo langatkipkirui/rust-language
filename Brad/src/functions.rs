@@ -1,7 +1,14 @@
 pub fn run() {
     greeting("Hello", "Kevin");
+
+    let get_sum = add(10, 5);
+    println!("Sum: {}", get_sum);
 }
 
 fn greeting(greet: &str, name: &str) {
     println!("{} {}, nice meeting you", greet, name);
+}
+
+fn add(n1: i32, n2: i32) -> i32 {
+    n1 + n2
 }
