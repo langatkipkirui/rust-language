@@ -10,7 +10,8 @@
 // mod conditionals;
 // mod monte;
 // mod loops;
-mod functions;
+// mod functions;
+mod pointer;
 
 fn main() {
     // print::run();
@@ -25,5 +26,6 @@ fn main() {
     // conditionals::run();
     // monte::run()
     // loops::run();
-    functions::run();
+    // functions::run();
+    pointer::run()
 }
