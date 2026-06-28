@@ -9,7 +9,8 @@
 // mod vectors;
 // mod conditionals;
 // mod monte;
-mod loops;
+// mod loops;
+mod functions;
 
 fn main() {
     // print::run();
@@ -23,5 +24,6 @@ fn main() {
     // vectors::run();
     // conditionals::run();
     // monte::run()
-    loops::run();
+    // loops::run();
+    functions::run();
 }
