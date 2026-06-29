@@ -11,7 +11,8 @@
 // mod monte;
 // mod loops;
 // mod functions;
-mod pointer;
+// mod pointer;
+mod structs;
 
 fn main() {
     // print::run();
@@ -27,5 +28,6 @@ fn main() {
     // monte::run()
     // loops::run();
     // functions::run();
-    pointer::run()
+    // pointer::run()
+    structs::run();
 }
