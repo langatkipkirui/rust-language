@@ -1,3 +1,5 @@
+mod primitive_data_types;
+
 fn main() {
-    println!("Hello, world!");
+    primitive_data_types::run();
 }
