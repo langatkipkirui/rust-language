@@ -22,4 +22,18 @@ pub fn run() {
 
     println!("max value of i32:{}", e);
     println!("max value of i32:{}", i);
+
+    // Floats [Floating Point Types]
+    // f32, f64
+    let pi: f64 = 3.14;
+    println!("Float {}", pi);
+
+    // Boolean Values: true, false
+    let is_snowing: bool = true;
+
+    println!("Is it snowing? {}", is_snowing);
+
+    // character type - chars
+    let letter: char = 'a';
+    println!("{} is the first letter of alphapet", letter)
 }
