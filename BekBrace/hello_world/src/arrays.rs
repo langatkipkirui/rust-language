@@ -34,4 +34,13 @@ pub fn run() {
 
     // Strings VS String Slices (&str)
     // Strings[growable, mutable, owned string type]
+    let mut stone_cold: String = String::from("Hell, ");
+    stone_cold.push_str("Yeah!");
+
+    println!("Stone cold says: {}", stone_cold);
+
+    // B- &str (String Slice)
+    let string: String = String::from("Hello world!");
+    let slice: &str = &string[0..5];
+    println!("Slice Value: {}", slice)
 }
