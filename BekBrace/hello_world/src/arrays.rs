@@ -18,5 +18,20 @@ pub fn run() {
 
     // --> mix tuples
     let my_mix_tuple = ("Kratos", 23, true, [1, 2, 3, 4, 5]);
-    println!("My mix tuple: {:?}", my_mix_tuple)
+    println!("My mix tuple: {:?}", my_mix_tuple);
+
+    // slices: [1,2,3,4,5]
+    let number_slices = &[1, 2, 3, 4, 5];
+    println!("Number Slice: {:?}", number_slices);
+    let animal_slices = &["Lion", "Cheetah", "Elephant", "Crocodile", "Dog"];
+    println!("Animal Slice: {:?}", animal_slices);
+    let book_slices = &[
+        &"IT".to_string(),
+        &"Harry Potter".to_string(),
+        &"Kidagaa Kimemwozea".to_string(),
+    ];
+    println!("Number Slice: {:?}", book_slices);
+
+    // Strings VS String Slices (&str)
+    // Strings[growable, mutable, owned string type]
 }
