@@ -9,7 +9,7 @@ pub fn run() {
 }
 
 fn tell_height(height: i32) {
-    // println!("My height is  {}cm", height)
+    println!("My height is  {}cm", height);
     let x = {
         let price = 5;
         let qty = 10;
@@ -22,8 +22,14 @@ fn tell_height(height: i32) {
 fn human_id(name: &str, age: u32, height: f32, x: i32) {
     println!("My name is {}, I am {} years old and my height is {}", name, age, height);
     println!("The X value is {}", x);
+    println!("a + b = {}", add(5, 40));
 }
 
 // Expressions and statements
 // An expression is anything that returns a Value
 // A statement is anything that does not return a value
+
+// Functions returning values
+fn add(a: i32, b: i32) -> i32 {
+    a + b
+}
