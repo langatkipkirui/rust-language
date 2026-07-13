@@ -1,7 +1,9 @@
 // mod primitive_data_types;
-mod arrays;
+// mod arrays;
+mod functions;
 
 fn main() {
     // primitive_data_types::run();
-    arrays::run();
+    // arrays::run();
+    functions::run();
 }
