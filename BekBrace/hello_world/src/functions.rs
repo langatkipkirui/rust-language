@@ -6,6 +6,10 @@
 pub fn run() {
     // println!("Hello Rust");
     tell_height(182);
+
+    // a function returning a calculation of bmi
+    let bmi = calculate_bmi(54.2, 5.1);
+    println!("Your BMI is: {:.2}", bmi)
 }
 
 fn tell_height(height: i32) {
@@ -32,4 +36,8 @@ fn human_id(name: &str, age: u32, height: f32, x: i32) {
 // Functions returning values
 fn add(a: i32, b: i32) -> i32 {
     a + b
+}
+
+fn calculate_bmi(weight_kg: f64, height_m: f64) -> f64 {
+    weight_kg / height_m
 }

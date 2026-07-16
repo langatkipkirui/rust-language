@@ -1,9 +1,11 @@
 // mod primitive_data_types;
 // mod arrays;
-mod functions;
+// mod functions;
+mod ownership;
 
 fn main() {
     // primitive_data_types::run();
     // arrays::run();
-    functions::run();
+    // functions::run();
+    ownership::run();
 }
