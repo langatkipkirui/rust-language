@@ -4,7 +4,8 @@
 // mod ownership;
 // mod borrowing_and_reference;
 // mod structs;
-mod variables_mutabilty;
+// mod variables_mutabilty;
+mod constants;
 
 fn main() {
     // primitive_data_types::run();
@@ -13,5 +14,6 @@ fn main() {
     // ownership::run();
     // borrowing_and_reference::main();
     // structs::run();
-    variables_mutabilty::main();
+    // variables_mutabilty::main();
+    constants::run()
 }
