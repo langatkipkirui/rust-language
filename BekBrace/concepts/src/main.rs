@@ -5,7 +5,8 @@
 // mod borrowing_and_reference;
 // mod structs;
 // mod variables_mutabilty;
-mod constants;
+// mod constants;
+mod shadowing;
 
 fn main() {
     // primitive_data_types::run();
@@ -15,5 +16,6 @@ fn main() {
     // borrowing_and_reference::main();
     // structs::run();
     // variables_mutabilty::main();
-    constants::run()
+    // constants::run()
+    shadowing::run()
 }
