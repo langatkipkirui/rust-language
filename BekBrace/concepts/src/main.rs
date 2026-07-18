@@ -7,7 +7,8 @@
 // mod variables_mutabilty;
 // mod constants;
 // mod shadowing;
-mod controlflow;
+// mod controlflow;
+mod loops;
 
 fn main() {
     // primitive_data_types::run();
@@ -19,5 +20,6 @@ fn main() {
     // variables_mutabilty::main();
     // constants::run()
     // shadowing::run()
-    controlflow::run()
+    // controlflow::run()
+    loops::run();
 }
