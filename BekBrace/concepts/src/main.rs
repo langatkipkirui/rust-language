@@ -9,7 +9,8 @@
 // mod shadowing;
 // mod controlflow;
 // mod loops;
-mod struct_2;
+// mod struct_2;
+mod enum_tools;
 
 fn main() {
     // primitive_data_types::run();
@@ -23,6 +24,6 @@ fn main() {
     // shadowing::run()
     // controlflow::run()
     // loops::run();
-
-    struct_2::run()
+    // struct_2::run()
+    enum_tools::run()
 }
