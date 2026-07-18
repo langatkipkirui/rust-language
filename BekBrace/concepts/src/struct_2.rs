@@ -44,4 +44,8 @@ pub fn run() {
     struct Point(i32, i32, i32);
     let back = Color(0, 0, 0);
     let white = Color(255, 255, 255);
+
+    // unit like struct
+    struct AlwaysEqual;
+    let subject = AlwaysEqual;
 }
