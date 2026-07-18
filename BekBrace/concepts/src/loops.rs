@@ -11,7 +11,8 @@ pub fn run() {
     };
     println!("The result is: {}", result);
     multiple_loops();
-    while_loop()
+    while_loop();
+    collection_loop();
 }
 // loop labels to disambiguate between multiple loops
 
@@ -40,5 +41,17 @@ fn while_loop() {
         println!("Current no: {number}");
         number -= 1;
         // break;
+    }
+}
+
+// looping through a collection with for loop
+fn collection_loop() {
+    let a = [1, 2, 3, 4, 5, 6];
+    let b = ["a", "b", "c", "d", "e"];
+    for element in a {
+        println!("A: collection loop: {element}");
+    }
+    for element in b {
+        println!("B: collection loop: {element}");
     }
 }
