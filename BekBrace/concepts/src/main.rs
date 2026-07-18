@@ -6,7 +6,8 @@
 // mod structs;
 // mod variables_mutabilty;
 // mod constants;
-mod shadowing;
+// mod shadowing;
+mod controlflow;
 
 fn main() {
     // primitive_data_types::run();
@@ -17,5 +18,6 @@ fn main() {
     // structs::run();
     // variables_mutabilty::main();
     // constants::run()
-    shadowing::run()
+    // shadowing::run()
+    controlflow::run()
 }
