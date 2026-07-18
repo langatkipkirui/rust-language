@@ -8,7 +8,8 @@
 // mod constants;
 // mod shadowing;
 // mod controlflow;
-mod loops;
+// mod loops;
+mod struct_2;
 
 fn main() {
     // primitive_data_types::run();
@@ -21,5 +22,7 @@ fn main() {
     // constants::run()
     // shadowing::run()
     // controlflow::run()
-    loops::run();
+    // loops::run();
+
+    struct_2::run()
 }
